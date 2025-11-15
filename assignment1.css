@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    margin-top: 40px;
+}
+nav button{
+    height: 52px;
+    width: 116px;
+    border-radius: 10px;
+}
+nav button:hover{
+    background-color: rgb(115, 212, 241);
+}
+#mainBar{
+    color: #0E0E0E;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+#mainBanner{
+background-color: #52aa81;
+border-radius: 40px;
+display: flex;
+}
+.backSize{
+    width: 1280px;
+height: 400px;
+margin: auto;
+margin-top: 30px;
+
+}
+#banner{
+    padding-left: 80px;
+    padding-top: 80px;
+}
+#mainBanner p{
+    color: #0E0E0E;
+}
+#mainBanner h1{
+    font-weight: 622;
+    height: 201;
+}
+#mainBanner img{
+   width: 474;
+   padding-left: 70%;
+}
+#mainBanner button{
+    background-color: #006A50;
+    font-size: 18px;
+    width: 270px;
+    height: 56px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.btn{
+    height:41px;
+    width: 122px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: fuchsia;
+}
+#columns{
+    display: flex;
+    height: auto;
+    width: auto;
+    gap: 24px;
+}
+.border{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+#backgroundImg{
+    background-image: url(./assets/quote-bg.png);
+    
+}
+#satelite{
+    border-radius: 10px;
+}
+p{
+    color: #0E0E0E;
+}
+#emailSection{
+    display: flex;
+    gap: 0px;
+}
+#subscribeSection{
+    border: 2px solid black;
+    align-items: center;
+}
