@@ -6,9 +6,16 @@
 }
 a{
     text-decoration: none;
+    color: unset;
+}
+body{
+    margin: 0px 100px;
+    background-color: #F1F1F3;
 }
 nav{
     margin-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 nav button{
     height: 52px;
@@ -22,19 +29,61 @@ nav button:hover{
     color: #0E0E0E;
     font-size: 32px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #mainBanner{
-background-color: #52aa81;
+background-color: #C6E4D6;
 border-radius: 40px;
 display: flex;
+margin-bottom: 80px;
 }
-.backSize{
-    width: 1280px;
-height: 400px;
-margin: auto;
-margin-top: 30px;
+#banner button:hover{
+    background-color: #95c1fd;
+    color: #0E0E0E;
+}
+#piller{
+    margin-bottom: 80px;
+}
+#pillerBox{
+    display: flex;
+    gap: 20px;
+}
+.pillerBakCuller{
+    background-color: #ffffff;
+}
+#future{
+    margin-bottom: 80px;
+}
 
+#vision{
+    background-color: #95c1fd;
+}
+#vision button{
+    background-color: #2f70df;
+}
+#vision button:hover{
+    background-color: #a6ff01;
+    color: #12663f;
+}
+#energy{
+    background-color: #C6E4D6;
+}
+#energy button{
+    background-color: #09A15C;
+}
+#energy button:hover{
+    background-color: #ff0000;
+    color: #12663f;
+}
+#infrastructure{
+background-color: #F7EBCF;
+}
+#infrastructure button{
+    background-color: #FFD55D;
+}
+#infrastructure button:hover{
+    background-color: #00eeff;
+    color: #176440;
 }
 #banner{
     padding-left: 80px;
@@ -59,28 +108,46 @@ margin-top: 30px;
     border-radius: 10px;
     color: #ffffff;
 }
+#futureBox{
+    display: flex;
+    gap: 24px;
+}
 .btn{
     height:41px;
     width: 122px;
     border-radius: 10px;
 }
-button:hover{
-    background-color: fuchsia;
+#news{
+   gap: 40px;
+    margin-bottom: 80px;
 }
-#columns{
+.btn2 button:hover{
+background-color: #12663f;
+color: #ffffff;
+}
+.columns{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#columns2{
     display: flex;
     height: auto;
     width: auto;
     gap: 24px;
 }
+#speech{
+    margin-bottom: 80px;
+}
 .border{
     border: 2px solid black;
     padding: 20px;
     border-radius: 20px;
+    background-color: #ffffff;
+    
 }
 #backgroundImg{
     background-image: url(./assets/quote-bg.png);
-    
+    background-repeat: no-repeat;
 }
 #satelite{
     border-radius: 10px;
@@ -91,8 +158,69 @@ p{
 #emailSection{
     display: flex;
     gap: 0px;
+    padding-left: 350px;
 }
 #subscribeSection{
     border: 2px solid black;
     align-items: center;
+}
+.donateSection{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.donateSection input{
+height: 50px;
+width: 500px;
+}
+.donateSection button{
+    height: 55px;
+    width: 100px;
+    background-color: #006A50;
+    color: #FFFFFF;
+}
+.amount{
+    margin-left: 500px;
+    display: flex;
+    margin-bottom: 20px;
+}
+#b200{
+    background-color: #C6E4D6;
+}
+#b200 button:hover{
+    background-color: #ff0000;
+}
+.subscribeSectiom{
+    width: 1280px;
+height: 400px;
+margin: auto ;
+border-radius: 20px;
+background-color: #C6E4D6;
+}
+#donatBtn button:hover{
+background-color: #ff0000;
+color: #0E0E0E;
+}
+.alien{
+    text-align: center;
+    padding-top: 80px;
+}
+.alien input{
+    align-items: center;
+}
+#emailSection input {
+height: 50px;
+width: 500px;
+text-align: center;
+}
+#emailSection button{
+    width: 100px;
+    background-color: #006A50;
+    color: #ffffff;
+}
+#emailSection button:hover{
+    background-color: #ff0000;
+    color: #0E0E0E;
+}
+further{
+    text-align: center;
 }
